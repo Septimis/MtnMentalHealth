@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>@ViewData["Title"] - Mountain Mental Health</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="~/css/header.css" />
+        <link rel="stylesheet" type="text/css" href="~/css/globalStyle.css" />
+        @RenderSection("Styles", required: false)
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet"> 
+
+        <!-- JS -->  
+        <script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js" defer></script>
+    </head>
+    <body>
+        <nav id="headerWrapper">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="/" id="logo">HOME</a>
+            <div id="menuContainer">
+                <ul id="leftMenu" class="menu">
+                    <li class="headerItem"><a href="/home/services" class="headerLinks">SERVICES</a></li>
+                    <li class="headerItem"><a href="/home/team" class="headerLinks">OUR TEAM</a></li>
+                    <li class="headerItem"><a href="/home/patientCenter" class="headerLinks">PATIENT CENTER</a></li>
+                    <li class="headerItem"><a href="/home/contact" class="headerLinks">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        @RenderBody()
+
+        @RenderSection("Scripts", required: false)
+    </body>
+</html>

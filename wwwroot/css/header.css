@@ -1,0 +1,127 @@
+#headerWrapper {
+    background-color: #fff;
+    color: black;
+
+    height: 80px;
+    width: 100%;
+    z-index: 5;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    border-bottom: 2px solid black;
+}
+
+#logo {
+    font-size: 48px;
+    font-family: 'Koulen';
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    float: left;
+    line-height: 80px;
+    margin-left: 50px;
+}
+.menu {
+    list-style: none;
+    height: 80px;
+    margin: 0px;
+}
+#leftMenu {
+    float: left;
+    padding-left: 40px;
+}
+#rightMenu {
+    float: right;
+}
+.headerLinks {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif, 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration: none;
+    margin-right: 32px;
+}
+.headerLinks:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--budgetor-charcoal);
+    text-decoration-thickness: 2px;
+}
+.headerItem {
+    display: inline-block;
+    line-height: 80px;
+}
+#logInBtn {
+    margin: 0px 32px 0px 16px;
+    color: var(--budgetor-blue);
+    background-color: var(--budgetor-off-white);
+    border: 1px solid var(--budgetor-charcoal);
+}
+#logInBtn:hover {
+    background-color: var(--budgetor-green);
+    color: white;
+}
+.signUpBtns {
+    color: white;
+    background-color: var(--budgetor-charcoal);
+}
+.signUpBtns:hover {
+    background-color: var(--budgetor-off-white);
+    color: var(--budgetor-charcoal);
+    border: 1px solid var(--budgetor-charcoal);
+    box-shadow: 0px 0px 1px 2px var(--budgetor-charcoal);
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+@media (max-width: 959px) {
+    #menuContainer {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        color: white;
+        background-color: var(--budgetor-charcoal);
+        transition: all .5s;
+    }
+    .checkbtn {
+        display: block;
+    }
+    #leftMenu li {
+        width: 100%;
+    }
+    #rightMenu li {
+        margin: 16px 16px;
+    }
+    .menu {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    #leftMenu, #rightMenu {
+        float: none;
+        height: auto;
+    }
+    .headerLinks {
+        color: white
+    }
+    #check:checked ~ #menuContainer {
+        left: 0px;
+    }
+    #headerSignUpBtn {
+        box-shadow: 0px 0px 10px 1px #fff;
+    }
+}

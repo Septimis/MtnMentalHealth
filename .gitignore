@@ -1,0 +1,2 @@
+# Prevent appsettings from being uploaded
+appsettings.json
