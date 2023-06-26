@@ -15,15 +15,11 @@
     border-bottom: 2px solid black;
 }
 
-#logo {
-    font-size: 48px;
-    font-family: 'Koulen';
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-    float: left;
-    line-height: 80px;
-    margin-left: 50px;
+#logoImg {
+    width: 100px;
+    height: auto;
+    margin: 16px;
+    display: block;
 }
 .menu {
     list-style: none;

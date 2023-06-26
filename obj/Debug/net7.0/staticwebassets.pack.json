@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\header.css"
     },
     {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MtnMentalHealth.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

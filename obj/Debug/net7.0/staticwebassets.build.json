@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YlBKlW7M33KKPwWNAsJfMTvlOc/VwFs+kgK56GmbeZY=",
+  "Hash": "+oM9klTW4qA4MdMtTOZf/hnqtD6AIDRyYAYrwMwZDsE=",
   "Source": "MtnMentalHealth",
   "BasePath": "_content/MtnMentalHealth",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\header.css"
+    },
+    {
+      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\home.css",
+      "SourceId": "MtnMentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "BasePath": "_content/MtnMentalHealth",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
     }
   ]
 }
