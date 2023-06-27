@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\icons\\clock-solid.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\clock-solid.svg"
+    },
+    {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\icons\\envelope-solid.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\envelope-solid.svg"
+    },
+    {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\icons\\map-location-dot-solid.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\map-location-dot-solid.svg"
+    },
+    {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\icons\\phone-solid.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\phone-solid.svg"
+    },
+    {
       "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\MMH_Logo.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\MMH_Logo.jpg"
     },

@@ -33,6 +33,17 @@
 #rightMenu {
     float: right;
 }
+.contactInfoWrapper {
+    margin-right: 24px;
+    padding-top: 12px;
+}
+.iconImg {
+    width: 16px;
+    height: auto;
+}
+#menuWrapper {
+    justify-content: space-between;
+}
 .headerLinks {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif, 'Courier New', Courier, monospace;
