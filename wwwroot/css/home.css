@@ -20,3 +20,29 @@
     font-size: 40px;
     font-family: 'Montserrat', 'Courier New', Courier, monospace;
 }
+
+#infoWrapper {
+    margin: 50px 20%;
+}
+.infoSubWrapper {
+    margin: 64px 0px;
+}
+.infoSubWrapper div {
+    position: relative;
+    width: 40%;
+    max-height: 400px;
+    overflow: hidden;
+    padding: 12px;
+}
+.infoTitle {
+    font-size: 26px;
+    font-family: 'Koulen', 'Montserrat', 'Courier New', Courier, monospace;
+}
+.infoParagraph {
+    font-size: 18px;
+    font-family: 'Montserrat', 'Courier New', Courier, monospace;
+}
+.infoImages {
+    width: 100%;
+    height: auto;
+}

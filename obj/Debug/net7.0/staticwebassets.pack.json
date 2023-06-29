@@ -25,6 +25,18 @@
       "PackagePath": "staticwebassets\\assets\\img\\homeBackground.png"
     },
     {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\old_man_with_ball.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\old_man_with_ball.jpg"
+    },
+    {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\pottery_couple.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pottery_couple.jpg"
+    },
+    {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\telehealth.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\telehealth.jpg"
+    },
+    {
       "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\globalStyle.css",
       "PackagePath": "staticwebassets\\css\\globalStyle.css"
     },
@@ -35,6 +47,10 @@
     {
       "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\services.css",
+      "PackagePath": "staticwebassets\\css\\services.css"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MtnMentalHealth.Microsoft.AspNetCore.StaticWebAssets.props",

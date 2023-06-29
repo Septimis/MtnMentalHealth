@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cARd4pBMLLQnpbVL0qVjW67BO4kNdn6nsTC3YL2BQA4=",
+  "Hash": "JO7JyI4bzIFGLQlVtn39pP5V6rmwOa8tqSMXeoWSRK4=",
   "Source": "MtnMentalHealth",
   "BasePath": "_content/MtnMentalHealth",
   "Mode": "Default",
@@ -119,6 +119,57 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\MMH_Logo.jpg"
     },
     {
+      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\old_man_with_ball.jpg",
+      "SourceId": "MtnMentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "BasePath": "_content/MtnMentalHealth",
+      "RelativePath": "assets/img/old_man_with_ball.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\old_man_with_ball.jpg"
+    },
+    {
+      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\pottery_couple.jpg",
+      "SourceId": "MtnMentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "BasePath": "_content/MtnMentalHealth",
+      "RelativePath": "assets/img/pottery_couple.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\pottery_couple.jpg"
+    },
+    {
+      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\telehealth.jpg",
+      "SourceId": "MtnMentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "BasePath": "_content/MtnMentalHealth",
+      "RelativePath": "assets/img/telehealth.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\telehealth.jpg"
+    },
+    {
       "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\globalStyle.css",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
@@ -168,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\services.css",
+      "SourceId": "MtnMentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "BasePath": "_content/MtnMentalHealth",
+      "RelativePath": "css/services.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\services.css"
     }
   ]
 }
