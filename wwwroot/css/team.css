@@ -1,0 +1,20 @@
+#openStatementWrapper {
+    /*background-image: url("/assets/img/homeBackground.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-size: cover;*/
+
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    border: 1px solid black;
+
+    text-align: center;
+}
+#introHeader {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Montserrat', 'Courier New', Courier, monospace;
+    text-align: center;
+}

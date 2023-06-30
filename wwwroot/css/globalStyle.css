@@ -1,11 +1,9 @@
 /* Global Variables */
 :root {
-    --budgetor-charcoal: #1C3F4F;
-    --budgetor-slate-gray: #295C67;
-    --budgetor-aquamarine: #64E9BF;
-    --budgetor-battleship-gray: #818D92;
-    --budgetor-off-white: #f5f5f5;
-    --budgetor-green: rgb(0, 88, 40);
+    --mental-grn: #b4d4bf;
+    --mental-teal: #8bc3b8;
+    --mental-blue: #3f7b83;
+    --mental-gray: #667169;
 }
 body {
     margin: 0px;

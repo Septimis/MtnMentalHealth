@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JO7JyI4bzIFGLQlVtn39pP5V6rmwOa8tqSMXeoWSRK4=",
+  "Hash": "jiW+NGcgLNbBfofXbej0CpVynUWyOwLAS7D0JaZ9ZWg=",
   "Source": "MtnMentalHealth",
   "BasePath": "_content/MtnMentalHealth",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons\\phone-solid.svg"
     },
     {
+      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\happy_beach_woman.jpg",
+      "SourceId": "MtnMentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "BasePath": "_content/MtnMentalHealth",
+      "RelativePath": "assets/img/happy_beach_woman.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\happy_beach_woman.jpg"
+    },
+    {
       "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\homeBackground.png",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
@@ -100,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\homeBackground.png"
+    },
+    {
+      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\med_management.jpg",
+      "SourceId": "MtnMentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "BasePath": "_content/MtnMentalHealth",
+      "RelativePath": "assets/img/med_management.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\med_management.jpg"
     },
     {
       "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\MMH_Logo.jpg",
@@ -236,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\services.css"
+    },
+    {
+      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\team.css",
+      "SourceId": "MtnMentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "BasePath": "_content/MtnMentalHealth",
+      "RelativePath": "css/team.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\team.css"
     }
   ]
 }
