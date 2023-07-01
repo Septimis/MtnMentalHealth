@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\homeBackground.png"
     },
     {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\leaf_background.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\leaf_background.jpg"
+    },
+    {
       "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\med_management.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\med_management.jpg"
     },
@@ -39,6 +43,18 @@
     {
       "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\pottery_couple.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\pottery_couple.jpg"
+    },
+    {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\team\\avatar.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\avatar.png"
+    },
+    {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\team\\shane.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\shane.jpg"
+    },
+    {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\team\\spencer.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\spencer.png"
     },
     {
       "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\telehealth.jpg",
