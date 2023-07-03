@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\work\\MtnMentalHealth\\dev\\MtnMentalHealth.csproj": {}
+    "C:\\Work\\MtnMentalHealth\\MtnMentalHealth.csproj": {}
   },
   "projects": {
-    "C:\\work\\MtnMentalHealth\\dev\\MtnMentalHealth.csproj": {
+    "C:\\Work\\MtnMentalHealth\\MtnMentalHealth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\MtnMentalHealth\\dev\\MtnMentalHealth.csproj",
+        "projectUniqueName": "C:\\Work\\MtnMentalHealth\\MtnMentalHealth.csproj",
         "projectName": "MtnMentalHealth",
-        "projectPath": "C:\\work\\MtnMentalHealth\\dev\\MtnMentalHealth.csproj",
+        "projectPath": "C:\\Work\\MtnMentalHealth\\MtnMentalHealth.csproj",
         "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\MtnMentalHealth\\dev\\obj\\",
+        "outputPath": "C:\\Work\\MtnMentalHealth\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

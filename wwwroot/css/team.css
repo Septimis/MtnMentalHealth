@@ -12,11 +12,42 @@
 }
 .sectionTitle {
     font-size: 36px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    background-color: #fff;
+    width: fit-content;
+    padding: 0px 12px;
 }
 .sectionWrapper {
-
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 32px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.memberWrapper {
+    width: 19vw;
+    min-width: 180px;
+    max-width: 300px;
 }
 .memberImg {
-    width: 200px;
-    height: 250px;
+    width: 15vw;
+    min-width: 180px;
+    max-width: 300px;
+    height: auto;
+    margin: 0px auto;
+    border-radius: 50%;
+}
+.memberName {
+    margin-bottom: 0px;
+}
+.memberTitle {
+    margin-top: 0px;
+}
+.memberDescription {
+    width: 80%;
+    text-align: center;
+    margin: 0px auto 64px auto;
 }
