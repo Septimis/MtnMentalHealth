@@ -1,5 +1,5 @@
 #headerWrapper {
-    background-color: #fff;
+    background-color: var(--mental-off-white);
     color: black;
 
     height: 80px;
@@ -13,7 +13,9 @@
     padding: 0px;
 
     border-bottom: 2px solid black;
+    overflow: hidden;
 }
+
 
 #logoImg {
     width: 100px;
@@ -118,10 +120,11 @@
         text-align: center;
         padding: 0px;
     }
-    #leftMenu, #rightMenu {
+    #leftMenu {
         float: none;
         height: auto;
     }
+    #rightMenu { display: none; }
     .headerLinks {
         color: white
     }

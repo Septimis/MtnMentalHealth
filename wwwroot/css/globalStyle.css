@@ -4,11 +4,13 @@
     --mental-teal: #8bc3b8;
     --mental-blue: #3f7b83;
     --mental-gray: #667169;
+    --mental-off-white: #fcfcf7;
 }
 body {
     margin: 0px;
     background-color: var(--budgetor-off-white);
     font-family: 'Montserrat', sans-serif, 'Courier New', Courier, monospace;
+    background-color: var(--mental-off-white);
 }
 .row, .rowRev, .col { display: flex; }
 .row {
@@ -35,4 +37,8 @@ body {
 
 .button:hover {
     cursor: pointer;
+}
+
+.subTitle {
+    color: var(--mental-blue);
 }
