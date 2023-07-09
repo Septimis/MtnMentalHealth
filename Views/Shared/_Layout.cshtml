@@ -1,3 +1,4 @@
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor Accessor
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
@@ -28,13 +29,20 @@
                         <a href="/">
                             <img id="logoImg" src="~/assets/img/MMH_Logo.jpg" alt="MtnMentalHealth_Logo" />
                         </a>
-                        <ul id="leftMenu" class="menu">
-                            <li class="headerItem"><a href="/" class="headerLinks">Home</a></li>
-                            <li class="headerItem"><a href="/home/services" class="headerLinks">Services</a></li>
-                            <li class="headerItem"><a href="/home/team" class="headerLinks">Our Team</a></li>
-                            <li class="headerItem"><a href="/home/patientCenter" class="headerLinks">Patient Center</a></li>
-                            <li class="headerItem"><a href="/home/contact" class="headerLinks">Contact Us</a></li>
-                        </ul>
+                        <div id="leftMenu" class="menu row">
+                            <a href="/" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/" ? "selectedPage" : "")">Home</a>
+
+                            <a href="/home/services" id="servicesLink" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/services" ? "selectedPage" : "")">Services</a>
+                            <div id="servicesDropWrapper">
+                                <a href="/home/services">Medication Management</a>
+                                <a href="/home/services">Eskatamine Therapy</a>
+                                <a href="/home/services">Telehealth</a>
+                            </div>
+
+                            <a href="/home/team" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/team" ? "selectedPage" : "")">Our Team</a>
+                            <a href="/home/patientCenter" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/patientCenter" ? "selectedPage" : "")">Patient Center</a>
+                            <a href="/home/contact" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/contact" ? "selectedPage" : "")">Contact Us</a>
+                        </div>
                     </div>
                     <div id="rightMenu" class="row">
                         <div class="contactInfoWrapper">

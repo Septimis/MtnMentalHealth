@@ -10,6 +10,9 @@ namespace MtnMentalHealth.Controllers {
             this.config = a_config;
         }
 
+        public void ConfigureServices(IServiceCollection a_services) => a_services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+        /* Views */
         public IActionResult home() => View();
         public IActionResult services() => View();
         public IActionResult team() => View();
