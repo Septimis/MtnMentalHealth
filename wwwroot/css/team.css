@@ -7,7 +7,7 @@
     margin-top: 85px;
 }
 
-#teamSection {
+.teamSection {
     margin: 16px 15%;
 }
 .sectionTitle {
@@ -15,7 +15,7 @@
     position: relative;
     top: 50px;
     left: 20px;
-    background-color: #fff;
+    background-color: var(--mental-off-white);
     width: fit-content;
     padding: 0px 12px;
 }
@@ -26,6 +26,7 @@
     padding: 32px;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    box-shadow: 6px 8px 12px 1px #a4a4a4;
 }
 .memberWrapper {
     width: 19vw;
