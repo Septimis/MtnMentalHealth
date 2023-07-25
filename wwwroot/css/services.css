@@ -44,4 +44,24 @@
     height: 50px;
     border-radius: 5px;
     background-color: var(--mental-blue);
+    color: white;
+    cursor: pointer;
+}
+.servicesBtn:hover {
+    animation-name: btnHover;
+    animation-duration: 250ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes btnHover {
+    0% {
+        background-color: var(--mental-blue);
+        color: white;
+        border: none;
+    }
+    100% {
+        background-color: var(--mental-off-white);
+        color: var(--mental-blue);
+        border: 3px solid var(--mental-blue);
+    }
 }
