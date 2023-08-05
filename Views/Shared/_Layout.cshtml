@@ -20,44 +20,41 @@
 
         <!-- JS -->  
         <script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js" defer></script>
+        <script type="text/javascript" src="~/js/globalScript.js" defer></script>
     </head>
     <body>
-        <nav id="headerWrapper">
-            <div id="menuContainer">
-                <div id="menuWrapper" class="row">
-                    <div class="row"> 
-                        <a href="/">
-                            <img id="logoImg" src="~/assets/img/MMH_Logo.jpg" alt="MtnMentalHealth_Logo" />
-                        </a>
-                        <div id="leftMenu" class="menu row">
-                            <a href="/" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/" ? "selectedPage" : "")">Home</a>
-
-                            <a href="/home/services" id="servicesLink" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/services" ? "selectedPage" : "")">Services</a>
-                            <div id="servicesDropWrapper">
-                                <a href="/home/services">Medication Management</a>
-                                <a href="/home/services">Eskatamine Therapy</a>
-                                <a href="/home/services">Telehealth</a>
-                            </div>
-
-                            <a href="/home/team" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/team" ? "selectedPage" : "")">Our Team</a>
-                            <a href="/home/patientCenter" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/patientCenter" ? "selectedPage" : "")">Patient Center</a>
-                            <a href="/home/contact" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/contact" ? "selectedPage" : "")">Contact Us</a>
-                        </div>
+        <nav id="headerWrapper" class="row">
+            <div id="logoWrapper" class="col">
+                <a href="/">
+                    <img id="logoImg" src="~/assets/img/MMH_Logo.jpg" alt="MtnMentalHealth_Logo" />
+                </a>
+            </div>
+            <div id="menuWrapper" class="col">
+                <div id="contactWrapper" class="row">
+                    <div class="contactInfo">
+                        <img src="~/assets/icons/phone-solid.svg" alt="phone-icon" class="iconImg" />
+                        <a href="tel:385-200-0285" class="contactLinks">(385) 200-0285</a>
                     </div>
-                    <div id="rightMenu" class="row">
-                        <div class="contactInfoWrapper">
-                            <img src="~/assets/icons/phone-solid.svg" alt="phone-icon" class="iconImg" />
-                            <span>(801) 111-1111</span>
-                        </div>
-                        <div class="contactInfoWrapper">
-                            <img src="~/assets/icons/clock-solid.svg" alt="clock-icon" class="iconImg" />
-                            <span>Mon - Fri: 8:00AM - 5:00PM</span>
-                        </div>
-                        <div class="contactInfoWrapper">
-                            <img src="~/assets/icons/envelope-solid.svg" alt="email-icon" class="iconImg" />
-                            <span>info@MtnMentalHealth.com</span>
-                        </div>
+                    <div class="contactInfo">
+                        <img src="~/assets/icons/envelope-solid.svg" alt="email-icon" class="iconImg" />
+                        <a href="mailto:facts@mtnmentalhealth.com" class="contactLinks">facts@mtnmentalhealth.com</a>
                     </div>
+                    <div class="contactInfo">
+                        <img src="~/assets/icons/clock-solid.svg" alt="clock-icon" class="iconImg" />
+                        <span>Mon - Fri: 8:00AM - 5:00PM</span>
+                    </div>
+                </div>
+                <div id="linkWrapper" class="row">
+                    <a href="/" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/" ? "selectedPage" : "")">Home</a>
+                    <a href="/home/services" id="servicesLink" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/services" ? "selectedPage" : "")">Services</a>
+                    <div id="servicesDropDownWrapper">
+                        <a href="/home/services">Medication Management</a>
+                        <a href="/home/services">Ketamine Therapy</a>
+                        <a href="/home/services">Telehealth</a>
+                    </div>
+                    <a href="/home/team" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/team" ? "selectedPage" : "")">Our Team</a>
+                    <a href="/home/patientCenter" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/patientCenter" ? "selectedPage" : "")">Patient Center</a>
+                    <a href="/home/contact" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/contact" ? "selectedPage" : "")">Contact Us</a>
                 </div>
             </div>
         </nav>
