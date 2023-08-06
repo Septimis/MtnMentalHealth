@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "AUSVX867+IsbO9h+xtVQZm+dm3ZJVbHyP3fBsHdXTCQ=",
+=======
+  "Hash": "ft1R09mQ7AzM+XoDPYw6M7z4VXNSzXGUQEiw7FtXP6s=",
+>>>>>>> 3005cc43f3d19c08fce6b0a166f9524957488ecd
   "Source": "MtnMentalHealth",
   "BasePath": "_content/MtnMentalHealth",
   "Mode": "Default",
@@ -10,17 +14,17 @@
     {
       "Name": "MtnMentalHealth\\wwwroot",
       "Source": "MtnMentalHealth",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\icons\\clock-solid.svg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\icons\\clock-solid.svg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/icons/clock-solid.svg",
       "AssetKind": "All",
@@ -34,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons\\clock-solid.svg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\icons\\envelope-solid.svg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\icons\\envelope-solid.svg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/icons/envelope-solid.svg",
       "AssetKind": "All",
@@ -51,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons\\envelope-solid.svg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\icons\\map-location-dot-solid.svg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\icons\\map-location-dot-solid.svg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/icons/map-location-dot-solid.svg",
       "AssetKind": "All",
@@ -68,10 +72,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons\\map-location-dot-solid.svg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\icons\\phone-solid.svg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\icons\\phone-solid.svg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/icons/phone-solid.svg",
       "AssetKind": "All",
@@ -85,10 +89,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\icons\\phone-solid.svg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\counseling.jpg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\counseling.jpg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/counseling.jpg",
       "AssetKind": "All",
@@ -102,10 +106,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\counseling.jpg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\happy_beach_woman.jpg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\happy_beach_woman.jpg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/happy_beach_woman.jpg",
       "AssetKind": "All",
@@ -119,10 +123,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\happy_beach_woman.jpg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\homeBackground.png",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\homeBackground.png",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/homeBackground.png",
       "AssetKind": "All",
@@ -136,10 +140,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\homeBackground.png"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\leaf_background.jpg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\leaf_background.jpg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/leaf_background.jpg",
       "AssetKind": "All",
@@ -153,10 +157,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\leaf_background.jpg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\med_management.jpg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\med_management.jpg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/med_management.jpg",
       "AssetKind": "All",
@@ -170,10 +174,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\med_management.jpg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\MMH_Logo.jpg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\MMH_Logo.jpg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/MMH_Logo.jpg",
       "AssetKind": "All",
@@ -187,10 +191,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\MMH_Logo.jpg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\office.jpg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\office.jpg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/office.jpg",
       "AssetKind": "All",
@@ -204,10 +208,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\office.jpg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\old_man_with_ball.jpg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\old_man_with_ball.jpg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/old_man_with_ball.jpg",
       "AssetKind": "All",
@@ -221,10 +225,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\old_man_with_ball.jpg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\pottery_couple.jpg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\pottery_couple.jpg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/pottery_couple.jpg",
       "AssetKind": "All",
@@ -238,10 +242,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\pottery_couple.jpg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\team\\avatar.png",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\team\\avatar.png",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/team/avatar.png",
       "AssetKind": "All",
@@ -255,10 +259,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\team\\avatar.png"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\team\\shane.jpg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\team\\shane.jpg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/team/shane.jpg",
       "AssetKind": "All",
@@ -272,10 +276,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\team\\shane.jpg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\team\\spencer.png",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\team\\spencer.png",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/team/spencer.png",
       "AssetKind": "All",
@@ -289,10 +293,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\team\\spencer.png"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\telehealth.jpg",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\assets\\img\\telehealth.jpg",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "assets/img/telehealth.jpg",
       "AssetKind": "All",
@@ -306,10 +310,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\telehealth.jpg"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\contact.css",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\css\\contact.css",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "css/contact.css",
       "AssetKind": "All",
@@ -323,10 +327,10 @@
       "OriginalItemSpec": "wwwroot\\css\\contact.css"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\globalStyle.css",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\css\\globalStyle.css",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "css/globalStyle.css",
       "AssetKind": "All",
@@ -340,10 +344,10 @@
       "OriginalItemSpec": "wwwroot\\css\\globalStyle.css"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\header.css",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\css\\header.css",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "css/header.css",
       "AssetKind": "All",
@@ -357,10 +361,10 @@
       "OriginalItemSpec": "wwwroot\\css\\header.css"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\home.css",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\css\\home.css",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "css/home.css",
       "AssetKind": "All",
@@ -374,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\patientCenter.css",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\css\\patientCenter.css",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "css/patientCenter.css",
       "AssetKind": "All",
@@ -391,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\css\\patientCenter.css"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\services.css",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\css\\services.css",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "css/services.css",
       "AssetKind": "All",
@@ -408,10 +412,10 @@
       "OriginalItemSpec": "wwwroot\\css\\services.css"
     },
     {
-      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\team.css",
+      "Identity": "C:\\Work\\MtnMentalHealth\\wwwroot\\css\\team.css",
       "SourceId": "MtnMentalHealth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "ContentRoot": "C:\\Work\\MtnMentalHealth\\wwwroot\\",
       "BasePath": "_content/MtnMentalHealth",
       "RelativePath": "css/team.css",
       "AssetKind": "All",
