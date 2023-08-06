@@ -57,6 +57,11 @@
                     <a href="/home/contact" class="headerLinks @(Accessor.HttpContext.Request.Path.Value == "/home/contact" ? "selectedPage" : "")">Contact Us</a>
                 </div>
             </div>
+            <div id="hamburger">
+                <span class="hamburgerBar"></span>
+                <span class="hamburgerBar"></span>
+                <span class="hamburgerBar"></span>
+            </div>
         </nav>
 
         @RenderBody()
