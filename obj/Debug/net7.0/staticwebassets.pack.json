@@ -1,103 +1,131 @@
 {
   "Files": [
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\icons\\clock-solid.svg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\icons\\clock-solid.svg",
       "PackagePath": "staticwebassets\\assets\\icons\\clock-solid.svg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\icons\\envelope-solid.svg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\icons\\envelope-solid.svg",
       "PackagePath": "staticwebassets\\assets\\icons\\envelope-solid.svg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\icons\\map-location-dot-solid.svg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\icons\\map-location-dot-solid.svg",
       "PackagePath": "staticwebassets\\assets\\icons\\map-location-dot-solid.svg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\icons\\phone-solid.svg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\icons\\phone-solid.svg",
       "PackagePath": "staticwebassets\\assets\\icons\\phone-solid.svg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\MMH_Logo.jpg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\Cannabis.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Cannabis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\MMH_Logo.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\MMH_Logo.jpg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\counseling.jpg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\calming_spring.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\calming_spring.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\counseling.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\counseling.jpg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\happy_beach_woman.jpg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\greenery_branch.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\greenery_branch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\happy_beach_woman.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\happy_beach_woman.jpg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\homeBackground.png",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\homeBackground.png",
       "PackagePath": "staticwebassets\\assets\\img\\homeBackground.png"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\leaf_background.jpg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\laptop.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\laptop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\leaf_background.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\leaf_background.jpg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\med_management.jpg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\med_management.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\med_management.jpg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\office.jpg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\office.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\office.jpg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\old_man_with_ball.jpg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\old_man_with_ball.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\old_man_with_ball.jpg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\pottery_couple.jpg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\pills.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pills.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\pottery_couple.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\pottery_couple.jpg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\team\\avatar.png",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\sunny_reeds.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sunny_reeds.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\sunny_trees.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sunny_trees.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\team\\avatar.png",
       "PackagePath": "staticwebassets\\assets\\img\\team\\avatar.png"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\team\\shane.jpg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\team\\shane.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\shane.jpg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\team\\spencer.png",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\team\\spencer.png",
       "PackagePath": "staticwebassets\\assets\\img\\team\\spencer.png"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\assets\\img\\telehealth.jpg",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\assets\\img\\telehealth.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\telehealth.jpg"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\contact.css",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\css\\contact.css",
       "PackagePath": "staticwebassets\\css\\contact.css"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\globalStyle.css",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\css\\globalStyle.css",
       "PackagePath": "staticwebassets\\css\\globalStyle.css"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\header.css",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\css\\header.css",
       "PackagePath": "staticwebassets\\css\\header.css"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\home.css",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\patientCenter.css",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\css\\patientCenter.css",
       "PackagePath": "staticwebassets\\css\\patientCenter.css"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\services.css",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\css\\services.css",
       "PackagePath": "staticwebassets\\css\\services.css"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\css\\team.css",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\css\\team.css",
       "PackagePath": "staticwebassets\\css\\team.css"
     },
     {
-      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\js\\globalScript.js",
+      "Id": "C:\\Users\\benja\\Programming\\MtnMentalHealth\\wwwroot\\js\\globalScript.js",
       "PackagePath": "staticwebassets\\js\\globalScript.js"
     },
     {

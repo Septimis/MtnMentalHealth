@@ -30,7 +30,7 @@
 .infoSubWrapper div {
     position: relative;
     width: 40%;
-    max-height: 400px;
+    max-height: 700px;
     overflow: hidden;
     padding: 12px;
 }
@@ -45,4 +45,10 @@
 .infoImages {
     width: 100%;
     height: auto;
+}   
+
+.imgWrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }

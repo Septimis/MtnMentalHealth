@@ -23,6 +23,9 @@
     margin: 0px 20%;
     padding: 36px 0px;
     justify-content: space-between;
+
+    display: flex;
+    align-items: center;
 }
 .servicesWrapper div {
     position: relative;
@@ -46,6 +49,7 @@
     background-color: var(--mental-blue);
     color: white;
     cursor: pointer;
+    display:none;
 }
 .servicesBtn:hover {
     animation-name: btnHover;
