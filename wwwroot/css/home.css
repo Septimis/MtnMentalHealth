@@ -21,10 +21,6 @@
     flex-direction: column;
 }
 
-.bannerLink {
-    font-size: 25px;
-}
-
 #openStatementWrapper h1 {
     position: relative;
     top: 80px;
