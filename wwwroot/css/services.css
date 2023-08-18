@@ -40,6 +40,26 @@
     height: auto;
 }
 
+#spravatoWrapper {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-color: white;
+}
+.spravatoImg {
+    width: 400px;
+    height: auto;
+}
+#spravatoLink {
+    margin: 32px 32px;
+    font-family: 'Merriweather', 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+}
+
 .servicesBtn {
     border: none;
     padding: 6px;
