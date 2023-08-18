@@ -133,6 +133,10 @@
       "PackagePath": "staticwebassets\\css\\team.css"
     },
     {
+      "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
       "Id": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\js\\globalScript.js",
       "PackagePath": "staticwebassets\\js\\globalScript.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+oorG4QaBNOhYVNTFsjqRkAOGHghGynOPkGrSP4Q7/w=",
+  "Hash": "JxzQyXjVnB1PSTfRkYtU+44FEBi2gD7ec8G7twvtjlw=",
   "Source": "MtnMentalHealth",
   "BasePath": "_content/MtnMentalHealth",
   "Mode": "Default",
@@ -576,6 +576,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\team.css"
+    },
+    {
+      "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\favicon.ico",
+      "SourceId": "MtnMentalHealth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\",
+      "BasePath": "_content/MtnMentalHealth",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\work\\MtnMentalHealth\\dev\\wwwroot\\js\\globalScript.js",
