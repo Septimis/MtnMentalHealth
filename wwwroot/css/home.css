@@ -21,6 +21,16 @@
     font-family: 'Montserrat', 'Courier New', Courier, monospace;
 }
 
+#banner {
+    margin-bottom: 32px;
+    font-family: 'Merriweather', 'Courier New', Courier, monospace;
+    font-size: 22px;
+    text-align: center;
+    padding: 32px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
 #infoWrapper {
     margin: 50px 20%;
 }
