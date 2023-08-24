@@ -33,17 +33,22 @@
 }
 
 #infoWrapper {
-    margin: 0px 20% 50px 20%;
+    margin: 0px 10% 50px 10%;
 }
 .infoSubWrapper {
-    margin: 64px 0px;
+    margin: 32px 0px;
 }
 .infoSubWrapper div {
     position: relative;
     width: 40%;
+    min-width: 400px;
     max-height: 700px;
     overflow: hidden;
     padding: 12px;
+    margin: 0px auto;
+}
+.infoSubWrapper:nth-child(2n) {
+    flex-direction: row-reverse;
 }
 .infoTitle {
     font-size: 26px;
