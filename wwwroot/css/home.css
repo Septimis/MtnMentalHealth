@@ -13,12 +13,12 @@
     text-align: center;
 }
 
-#openStatementWrapper h1 {
-    position: relative;
-    top: 80px;
+#homeCatchPhrase {
+    text-align: center;
     font-weight: bold;
     font-size: 40px;
     font-family: 'Montserrat', 'Courier New', Courier, monospace;
+    margin: 0px;
 }
 
 #banner {
@@ -33,7 +33,7 @@
 }
 
 #infoWrapper {
-    margin: 50px 20%;
+    margin: 0px 20% 50px 20%;
 }
 .infoSubWrapper {
     margin: 64px 0px;
