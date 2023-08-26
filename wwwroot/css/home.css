@@ -42,8 +42,6 @@
     position: relative;
     width: 40%;
     min-width: 400px;
-    max-height: 700px;
-    overflow: hidden;
     padding: 12px;
     margin: 0px auto;
 }

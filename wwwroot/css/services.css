@@ -24,15 +24,16 @@
     padding: 36px 0px;
     justify-content: space-between;
 
-    display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
+.servicesWrapper:nth-child(2n) { flex-direction: row-reverse; }
 .servicesWrapper div {
     position: relative;
     width: 40%;
-    max-height: 400px;
-    overflow: hidden;
+    min-width: 400px;
     padding: 12px;
+    margin: 0px auto;
 }
 #servicesBulletList { padding-left: 5px; }
 .servicesBullet {
