@@ -1,8 +1,8 @@
 #openStatementWrapper {
-    background-image: url("/assets/img/leaf_background.jpg");
+    background-image: url("/assets/img/services/banner.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 0 0;
+    background-position: 50% 250%;
     background-size: cover;
 
     position: relative;

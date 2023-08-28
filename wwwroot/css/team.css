@@ -32,6 +32,7 @@
     width: 19vw;
     min-width: 180px;
     max-width: 400px;
+    position: relative;
 }
 .memberImg {
     width: 15vw;
