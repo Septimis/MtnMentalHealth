@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3XAOPci4c2xLvRieZiyWMgbMeZHgyJKy0YkpzUY1VNAewiT7eiBtfMDhcch+pTOR4a6rwG1FqcAm/KA7487Fvw==",
+  "dgSpecHash": "UqWgls9aWthWZmLxgG0XGLHBM1sKuWsR+eCvWoYFzTFV/I+wLhUJQ/Jwf3vnrfVfmJoCnp3M84W2rknPDQmv+g==",
   "success": true,
-  "projectFilePath": "C:\\work\\MtnMentalHealth\\dev\\MtnMentalHealth.csproj",
+  "projectFilePath": "C:\\work\\MtnMentalHealth\\MtnMentalHealth.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

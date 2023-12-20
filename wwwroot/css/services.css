@@ -98,3 +98,30 @@
         border: 3px solid var(--mental-blue);
     }
 }
+
+#cannabis-qualifying-conditions {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 60vw;
+    height: 70vh;
+    overflow: auto;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: beige;
+}
+.infoBoxHeader {
+    text-align: center;
+}
+.infoPoint {
+    padding: 5px 0px;
+}
