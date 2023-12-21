@@ -107,7 +107,8 @@
 }
 .infoBox {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: fixed;
     top: 100px;
     left: 50%;
@@ -115,13 +116,38 @@
     width: 60vw;
     height: 70vh;
     overflow: auto;
+    padding: 12px;
     border: 2px solid black;
     border-radius: 4px;
     background-color: beige;
 }
-.infoBoxHeader {
+.infoBoxHeaders {
     text-align: center;
 }
-.infoPoint {
+.infoPoints {
     padding: 5px 0px;
+}
+.infoImg {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.infoSubBox {
+    width: 50%;
+    min-width: 300px;
+    margin: 0px auto;
+}
+.processSubBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#cannabis-pricing-header {
+    margin-bottom: 0px;
+}
+#one-year-renewal {
+    margin-bottom: 24px;
+}
+.cannabis-pricing {
+    margin: 4px 0px;
 }
