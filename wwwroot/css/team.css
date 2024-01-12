@@ -36,8 +36,6 @@
 }
 .memberImg {
     width: 15vw;
-    min-width: 180px;
-    max-width: 300px;
     height: auto;
     margin: 0px auto;
     border-radius: 50%;
