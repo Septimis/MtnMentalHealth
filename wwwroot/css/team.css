@@ -69,6 +69,7 @@
     margin-top: 0px;
 }
 .memberDescription {
+    max-width: 500px;
     width: 80%;
     text-align: center;
     margin: 0px auto 64px auto;
