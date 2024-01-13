@@ -30,15 +30,29 @@
 }
 .memberWrapper {
     width: 20vw;
-    min-width: 180px;
+    min-width: 250px;
     max-width: 400px;
     position: relative;
     padding: 16px 0px;
-    transition: box-shadow 500ms ease-in-out;
-    cursor: pointer;
+
 }
-.memberWrapper:hover {
+#providingTeamWrapper > .memberWrapper { cursor: pointer; }
+#providingTeamWrapper > .memberWrapper:not(.focusedMember) {
+    transition: box-shadow 500ms ease-in-out;
+}
+#providingTeamWrapper > .memberWrapper:not(.focusedMember):hover {
     box-shadow: 6px 8px 12px 1px #a4a4a4;
+}
+.focusedMember {
+    width: 100%;
+    max-width: 100vw;
+    position: fixed;
+    top: 85px;
+    z-index: 1;
+    height: fit-content;
+    padding-bottom: 128px;
+    background: linear-gradient(var(--mental-blue) 80%, transparent 100%);
+    transition: width 500ms ease-in-out;
 }
 .memberImg {
     width: 200px;
@@ -64,7 +78,11 @@
     height: 150px;
     overflow: hidden;
 }
-.descriptionWrapper::after {
+.focusedMember .descriptionWrapper {
+    height: fit-content;
+    overflow: visible;
+}
+.memberWrapper:not(.focusedMember) .descriptionWrapper::after {
     content: '';
     position: absolute;
     bottom: 0px;
