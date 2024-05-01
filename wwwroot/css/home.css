@@ -7,7 +7,7 @@
 
     position: relative;
     height: 60vh;
-    width: 100vw;
+    width: auto;
     border: 1px solid black;
 
     text-align: center;
