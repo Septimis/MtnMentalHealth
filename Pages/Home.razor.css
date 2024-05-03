@@ -1,0 +1,47 @@
+#bannerImg {
+	background-image: url("/assets/img/Home/banner.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 40% 50%;
+	background-size: cover;
+
+	position: relative;
+	height: 55vh;
+	width: auto;
+	border: 1px solid black;
+
+	text-align: center;
+}
+
+#acceptingPtWrapper {
+	margin-bottom: 32px;
+	font-family: 'Merriweather', 'Courier New', Courier, monospace;
+	font-size: 22px;
+	text-align: center;
+	padding: 32px;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	justify-content: center;
+}
+
+#homeHeader {
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	position: relative;
+	font-family: 'Montserrat', 'Courier New', Courier, monospace;
+	margin: 0px;
+	animation: fade-in-bottom;
+	animation-duration: 3s;
+}
+
+@keyframes fade-in-bottom {
+	0% {
+		opacity: 0;
+		bottom: -50px;
+	}
+	100% {
+		opacity: 1;
+		bottom: 0px;
+	}
+}
