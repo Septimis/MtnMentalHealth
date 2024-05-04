@@ -1,7 +1,7 @@
 ﻿@inherits LayoutComponentBase
 
 <nav id="headerWrapper" class="row">
-	<div id="logoWrapper" class="col">
+	<div class="col logoWrapper">
 		<a href="/">
 			<img id="logoImg" src="assets/img/MMH_Logo.jpg" alt="MtnMentalHealth_Logo" />
 		</a>
@@ -41,6 +41,37 @@
 </nav>
 
 @Body
+
+<div id="footerWrapper" class="row">
+	<div class="logoWrapper col">
+		<a href="/">
+			<img id="logoImg" src="assets/img/MMH_Logo.jpg" alt="MtnMentalHealth_Logo" />
+		</a>
+	</div>
+
+	<div id="contact" class="col">
+		<div class="row footerContent footerContentTitle">
+			CONTACT
+		</div>
+		<div class="row footerContent">
+			(385) 449-9990
+		</div>
+		<div class="row footerContent">
+			HOURS OF OPERATION <br>
+			MON-FRI: 8:00AM - 5:00PM
+		</div>
+	</div>
+
+	<div id="socialMedia" class="col">
+		<div class="row footerContent footerContentTitle">
+			FOLLOW US
+		</div>
+		<div class="row footerContent">
+			Instagram<br>
+			Facebook
+		</div>
+	</div>
+</div>
 
 @code
 {

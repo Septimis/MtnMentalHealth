@@ -16,7 +16,7 @@
     overflow: hidden;
 }
 
-#logoWrapper {
+.logoWrapper {
     width: fit-content;
 }
 #logoImg {
@@ -141,6 +141,23 @@
 	#hamburger.active .hamburgerBar:nth-child(3) {
 		transform: translateY(-8px) rotate(-45deg);
 	}
+}
+
+#footerWrapper {
+	justify-content: space-between;
+	border-top: 2px solid black;
+	padding: 12px 8px;
+}
+.footerContent {
+	width: auto;
+	margin: 0px auto;
+}
+.footerContentTitle {
+	font-family: 'Montserrat', sans-serif, 'Courier New', Courier, monospace;
+	font-size: 18px;
+	margin-bottom: 6px;
+	font-weight: bold;
+
 }
 
 body
