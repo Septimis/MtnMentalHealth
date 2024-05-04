@@ -13,6 +13,32 @@
 	text-align: center;
 }
 
+#homeHeaderWrapper {
+	margin: 10% 50%;
+	padding: 8px;
+	position: relative;
+	transform: translateX(-50%);
+	animation: fade-in-bottom;
+	animation-duration: 3s;
+	border-radius: 8px;
+	background-color: #ffffffaa;
+	width: 45%;
+	overflow: hidden;
+}
+#headerText {
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Montserrat', 'Courier New', Courier, monospace;
+}
+#headerMissionStatement {
+	text-align: center;
+	font-style: italic;
+	font-size: 22px;
+	margin: 0px 10%;
+	font-family: 'Merriweather', 'Courier New', Courier, monospace;
+}
+
 #acceptingPtWrapper {
 	margin-bottom: 32px;
 	font-family: 'Merriweather', 'Courier New', Courier, monospace;
@@ -24,15 +50,25 @@
 	justify-content: center;
 }
 
-#homeHeader {
+#contentWrapper {
+	justify-content: space-evenly;
+	gap: 32px;
+	margin: 0px 8px;
+}
+.content {
+	box-shadow: 2px 2px 10px 2px var(--mental-gray);
+	width: 35%;
+	max-width: 450px;
+	min-width: 150px;
+	height: auto;
 	text-align: center;
-	font-weight: bold;
-	font-size: 40px;
-	position: relative;
-	font-family: 'Montserrat', 'Courier New', Courier, monospace;
-	margin: 0px;
-	animation: fade-in-bottom;
-	animation-duration: 3s;
+	padding: 8px 16px;
+	transition: all 250ms ease-in-out;
+	cursor: pointer;
+}
+.content:hover {
+	box-shadow: 6px 6px 10px 2px var(--mental-gray);
+	transform: scale(1.05);
 }
 
 @keyframes fade-in-bottom {
@@ -43,5 +79,25 @@
 	100% {
 		opacity: 1;
 		bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	#bannerImg {
+		height: 30vh;
+	}
+	#homeHeaderWrapper {
+		width: 90%;
+		max-height: 20vh;
+	}
+	#headerMissionStatement {
+		font-size: 16px;
+		margin: 0px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#headerMissionStatement {
+		display: none;
 	}
 }
