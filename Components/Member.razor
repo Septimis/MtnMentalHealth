@@ -11,6 +11,11 @@
 	{
 		<p class="memberDescription">@memberDescription</p>
 	}
+
+	@if(IsProvider() && string.IsNullOrEmpty(focusedClass))
+	{
+		<button class="clickBait">Read More</button>
+	}
 </div>
 
 @code

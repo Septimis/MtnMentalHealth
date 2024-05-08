@@ -25,12 +25,26 @@
 	width: 500px;
 	margin: 16px auto 64px auto;
 }
+.clickBait {
+	border: none;
+	border-radius: 6px;
+	background-color: transparent;
+	margin: 8px auto;
+	width: fit-content;
+	padding: 4px 16px;
+	color: black;
+	transition: background-color 500ms ease-in-out, color 100ms ease-in-out;
+}
 .provider {
 	transition: box-shadow 500ms ease-in-out;
 	cursor: pointer;
 }
 .provider:not(.focused):hover {
 	box-shadow: 6px 8px 12px 1px var(--mental-gray);
+}
+.provider:not(.focused):hover .clickBait {
+	color: var(--mental-off-white);
+	background-color: var(--mental-gray);
 }
 
 .focused {

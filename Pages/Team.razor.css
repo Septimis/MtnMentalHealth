@@ -7,6 +7,7 @@
 #descriptionWrapper {
 	margin: 16px 25%;
 	font-size: 1.4em;
+	max-width: 2000px;
 }
 
 #meetTheTeamTitle {
@@ -19,6 +20,7 @@
 	padding: 32px 16px;
 	border: 1px solid black;
 	width: 70%;
+	max-width: 2000px;
 }
 .teamTitle {
 	position: absolute;
