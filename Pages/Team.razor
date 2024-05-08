@@ -13,7 +13,7 @@
 <div class="teamSection">
 	<h3 class="teamTitle">Providing Team</h3>
 	<div class="row teamWrapper">
-		<div class="col member provider">
+		<div class="col member provider" @onclick="OnProviderClicked">
 			<img src="assets/img/team/Spencer_Lowe.png" alt="spencer-lowe-headshot" class="memberImg" />
 			<h3 class="memberName">Spencer Lowe</h3>
 			<span class="memberTitle">DNP, APRN, FNP-C, CNE, PMHNP-BC, QMP</span>
@@ -63,3 +63,21 @@
 		</div>
 	</div>
 </div>
+
+@code
+{
+	private string focused { get; set; } = string.Empty;
+
+	private void ToggleFocused()
+	{
+		focused = string.IsNullOrEmpty(focused) ? "focusedMember" : string.Empty;
+	}
+
+	void OnProviderClicked()
+	{
+		if(!string.IsNullOrEmpty(focused))
+		{
+			ToggleFocused();
+		}
+	}
+}
