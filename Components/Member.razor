@@ -1,0 +1,61 @@
+<div class="col member @providerClass @focusedClass" @onclick="OnProviderClicked">
+	<img src="@imgSrc" alt="@imgAlt" class="memberImg" />
+	<h3 class="memberName">@memberName</h3>
+
+	@if(IsProvider())
+	{
+		<span class="memberTitle">@memberTitle</span>
+	}
+
+	@if(IsProvider() && !string.IsNullOrEmpty(focusedClass))
+	{
+		<p class="memberDescription">@memberDescription</p>
+	}
+</div>
+
+@code
+{
+	/* Member args */
+	[Parameter]
+	public string imgSrc { get; set; } = "assets/img/Team/Default-Profile-Picture.png";
+	[Parameter]
+	public string imgAlt { get; set; } = "default-profile";
+	[Parameter]
+	public string memberName { get; set; } = "Unknown Member";
+	[Parameter]
+	public string memberTitle { get; set; } = string.Empty;
+	[Parameter]
+	public string memberDescription { get; set; } = string.Empty;
+
+	/* optional css classes to apply */
+	private string focusedClass { get; set; } = string.Empty;
+	private string providerClass { get; set; } = string.Empty;
+
+	private void OnProviderClicked()
+	{
+		if(!IsProvider())
+		{
+			return;
+		}
+
+		focusedClass = string.IsNullOrEmpty(focusedClass) ? "focused" : "";
+	}
+
+	protected override async Task OnInitializedAsync()
+	{
+		if(!IsProvider())
+		{
+			memberTitle = string.Empty;
+			memberDescription = string.Empty;
+		}
+		else
+		{
+			providerClass = "provider";
+		}
+	}
+
+	private bool IsProvider()
+	{
+		return !string.IsNullOrEmpty(memberTitle);
+	}
+}
