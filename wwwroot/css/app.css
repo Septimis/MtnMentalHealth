@@ -17,6 +17,10 @@ body {
 	font-family: 'Montserrat', sans-serif, 'Courier New', Courier, monospace;
 }
 
+#app {
+	min-height: calc(100vh - 80px);
+}
+
 .row, .rowRev, .col { display: flex; }
 .row {
 	flex-direction: row;
