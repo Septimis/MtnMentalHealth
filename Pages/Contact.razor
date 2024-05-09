@@ -1,5 +1,4 @@
 ﻿@page "/Contact"
-@inject IJSRuntime JSRuntime
 
 <PageTitle>MMH - Contact</PageTitle>
 
@@ -14,7 +13,15 @@
 <div id="mapWrapper">
 	<p>4516 S 700 E #379, Salt Lake City, UT 84107</p>
 
-	<div id="map"></div>
+	<!-- Documentation found at https://developers.google.com/maps/documentation/embed/embedding-map?hl=en#place_mode -->
+	<iframe width="600"
+			height="450"
+			style="border:0"
+			loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"
+			src="https://www.google.com/maps/embed/v1/place?key=FoundIn__maps_api.secret
+		&q=Mountain+Mental+Health+Murray+Utah">
+	</iframe>
 
 	<code>If using Google Maps, please type in the entire address, including suite number.</code>
 </div>
@@ -26,36 +33,3 @@
 <div id="contactInfoWrapper">
 
 </div>
-
-<script>
-    (g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
-        ({ key: "", v: "weekly" });
-</script>
-
-<script>
-
-    console.log('hello world from js');
-    // Initialize and add the map
-    let map;
-
-    async function initMap() {
-        const position = { lat: 40.67382432986008, lng: -111.87193061464575 };
-        const { Map } = await google.maps.importLibrary("maps");
-        const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
-
-        map = new Map(document.getElementById("map"), {
-            zoom: 12,
-            center: position,
-            mapId: "DEMO_MAP_ID",
-        });
-
-        // The marker, positioned at Uluru
-        const marker = new AdvancedMarkerElement({
-            map: map,
-            position: position,
-            title: "Uluru",
-        });
-    }
-
-    initMap();
-</script>
