@@ -21,11 +21,58 @@
 	overflow: hidden;
 }
 
-#map {
-	width: 30%;
-	max-width: 2000px;
-	height: 400px;
+#mapWrapper {
+	margin: 64px auto;
+	text-align: center;
+}
 
+.gallery {
+	align-items: center;
+	margin: 32px 0px;
+}
+
+	.gallery h2 {
+		text-align: center;
+		margin: 32px 0px 8px 0px;
+	}
+
+.main-image img {
+	width: 600px;
+	height: 600px;
+}
+
+.thumbnails {
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.thumbnail {
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.thumbnail img {
+	width: 150px;
+	height: 150px;
+}
+
+.thumbnail img:hover {
+	opacity: 0.7;
+}
+
+img {
+	object-fit: cover;
+	object-position: center;
+}
+
+#contactInfoWrapper {
+	text-align: center;
+}
+#contactInfoWrapper div {
+	align-content: center;
+	justify-content: center;
+	margin: 8px;
 }
 
 @media only screen and (max-width: 700px) {

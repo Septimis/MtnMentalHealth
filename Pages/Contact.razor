@@ -8,10 +8,8 @@
 	</div>
 </div>
 
-<h2>LOCATION</h2>
-
-<div id="mapWrapper">
-	<p>4516 S 700 E #379, Salt Lake City, UT 84107</p>
+<div id="mapWrapper" class="col">
+	<h2 id="locationText">LOCATION</h2>
 
 	<!-- Documentation found at https://developers.google.com/maps/documentation/embed/embedding-map?hl=en#place_mode -->
 	<iframe width="600"
@@ -19,17 +17,69 @@
 			style="border:0"
 			loading="lazy"
 			referrerpolicy="no-referrer-when-downgrade"
-			src="https://www.google.com/maps/embed/v1/place?key=FoundIn__maps_api.secret
+			src="https://www.google.com/maps/embed/v1/place?key=@MapsAPI
 		&q=Mountain+Mental+Health+Murray+Utah">
 	</iframe>
 
 	<code>If using Google Maps, please type in the entire address, including suite number.</code>
 </div>
 
-<div id="imageGalleryWrapper">
-
+<div class="gallery col">
+	<h2>Photo Gallery</h2>
+	<div class="main-image">
+		<img src="/assets/img/Contact/office1.jpg" alt="main-image">
+	</div>
+	
+	<div class="thumbnails row">
+		<div class="thumbnail">
+			<img src="/assets/img/Contact/office1.jpg" alt="thumbnail 1">
+		</div>
+		<div class="thumbnail">
+			<img src="/assets/img/Contact/office2.jpg" alt="thumbnail 2">
+		</div>
+		<div class="thumbnail">
+			<img src="/assets/img/Contact/office3.jpg" alt="thumbnail 3">
+		</div>
+		<div class="thumbnail">
+			<img src="/assets/img/Contact/office4.jpg" alt="thumbnail 4">
+		</div>
+		<div class="thumbnail">
+			<img src="/assets/img/Contact/office5.jpg" alt="thumbnail 5">
+		</div>
+		<div class="thumbnail">
+			<img src="/assets/img/Contact/office6.jpg" alt="thumbnail 6">
+		</div>
+		<div class="thumbnail">
+			<img src="/assets/img/Contact/office7.jpg" alt="thumbnail 7">
+		</div>
+		<div class="thumbnail">
+			<img src="/assets/img/Contact/office8.jpg" alt="thumbnail 8">
+		</div>
+	</div>
 </div>
+
+<script>
+	let mainImage = document.querySelector('.main-image img');
+	const thumbnails = document.querySelectorAll('.thumbnail img');
+
+	thumbnails.forEach(function (thumbnail) {
+		thumbnail.addEventListener('click', () => {
+			let src = thumbnail.getAttribute('src');
+			mainImage.setAttribute('src', src);
+		});
+	});
+</script>
 
 <div id="contactInfoWrapper">
-
+	<h3>General Questions: <a href="mailto:facts@mtnmentalhealth.com">facts@mtnmentalhealth.com</a></h3>
+	<div class="row">
+		<div class="col"><a href="tel:385-449-9990">(385) 449-9990</a></div>
+		<div class="col"><a href="tel:385-200-0285">(385) 200-0285</a></div>
+	</div>
+	<h3>Fax: <a href="tel:385-449-9998">(385) 449-9998</a></h3>
 </div>
+
+@code
+{
+	private string MapsAPI = "AIzaSyAoNFJj_FqPIg2Z65aENF94XE4KJLFpVlQ";
+}
