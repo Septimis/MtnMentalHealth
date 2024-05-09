@@ -1,0 +1,40 @@
+﻿#bannerImg {
+	background-image: url("/assets/img/Home/banner.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 40% 50%;
+	background-size: cover;
+	position: relative;
+	height: 35vh;
+	width: auto;
+	border: 1px solid black;
+	text-align: center;
+}
+#contactHeaderWrapper {
+	margin: 5% 50%;
+	padding: 8px;
+	position: relative;
+	transform: translateX(-50%);
+	border-radius: 8px;
+	background-color: #ffffffaa;
+	width: 45%;
+	overflow: hidden;
+}
+
+#map {
+	width: 30%;
+	max-width: 2000px;
+	height: 400px;
+
+}
+
+@media only screen and (max-width: 700px) {
+	#bannerImg {
+		height: 30vh;
+	}
+
+	#contactHeaderWrapper {
+		width: 90%;
+		max-height: 20vh;
+	}
+}
