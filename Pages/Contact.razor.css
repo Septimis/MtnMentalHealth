@@ -25,6 +25,13 @@
 	margin: 64px auto;
 	text-align: center;
 }
+#map {
+	width: 40vw;
+	min-width: 350px;
+	height: 40vw;
+	min-height: 350px;
+	margin: 0px auto;
+}
 
 .gallery {
 	align-items: center;
@@ -84,4 +91,6 @@ img {
 		width: 90%;
 		max-height: 20vh;
 	}
+
+	.gallery { display: none;}
 }
