@@ -23,7 +23,7 @@
 	max-width: 2000px;
 }
 .teamTitle {
-	position: absolute;
+	position: relative;
 	top: -64px;
 	background-color: var(--mental-off-white);
 	padding: 0px 12px;
