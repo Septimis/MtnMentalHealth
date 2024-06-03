@@ -48,12 +48,12 @@
 	justify-content: center;
 }
 
-#contentWrapper {
+#infoCardWrapper {
 	justify-content: space-evenly;
 	gap: 32px;
 	margin: 32px 8px;
 }
-.content {
+.infoCard {
 	box-shadow: 2px 2px 10px 2px var(--mental-gray);
 	width: 35%;
 	max-width: 450px;
@@ -64,9 +64,12 @@
 	transition: all 250ms ease-in-out;
 	cursor: pointer;
 }
-.content:hover {
+.infoCard:hover {
 	box-shadow: 6px 6px 10px 2px var(--mental-gray);
 	transform: scale(1.05);
+}
+.infoCard:hover p {
+	color: blue;
 }
 
 @keyframes fade-in-bottom {
