@@ -47,6 +47,13 @@
     width: 16px;
     height: auto;
 }
+.socialIcon {
+	width: 32px;
+	height: auto;
+}
+.socialIconWrapper{
+	margin: 0px 6px;
+}
 
 #linkWrapper {
     height: 75%;
