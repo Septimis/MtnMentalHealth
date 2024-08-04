@@ -1,28 +1,18 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
-builder.Services.AddHttpContextAccessor();
+namespace MtnMentalHealth;
 
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+public class Program
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    public static async Task Main(string[] args)
+    {
+        WebAssemblyHostBuilder? builder = WebAssemblyHostBuilder.CreateDefault(args);
+        builder.RootComponents.Add<App>("#app");
+        builder.RootComponents.Add<HeadOutlet>("head::after");
+
+        builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+
+        await builder.Build().RunAsync();
+    }
 }
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=home}/{id?}");
-
-app.Run();

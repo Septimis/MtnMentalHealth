@@ -4,5 +4,6 @@ appsettings.json
 bin/
 obj/
 .vs/
+*.secret
 .vscode/
 *.sln

@@ -1,0 +1,45 @@
+#titleWrapper {
+	align-items: center;
+	justify-content: center;
+	margin-top: 16px;
+}
+
+#descriptionWrapper {
+	margin: 16px 25%;
+	font-size: 1.4em;
+	max-width: 2000px;
+}
+
+#meetTheTeamTitle {
+	margin: 32px auto;
+	text-align: center;
+}
+
+.teamSection {
+	margin: 64px auto;
+	padding: 32px 16px;
+	border: 1px solid black;
+	width: 70%;
+	max-width: 2000px;
+}
+.teamTitle {
+	position: relative;
+	top: -64px;
+	background-color: var(--mental-off-white);
+	padding: 0px 12px;
+	width: fit-content;
+}
+
+.teamWrapper {
+	justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+	#descriptionWrapper {
+		margin: 8px 5%;
+	}
+
+	.teamSection {
+		width: 85%;
+	}
+}

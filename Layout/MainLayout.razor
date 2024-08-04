@@ -1,0 +1,93 @@
+﻿@inherits LayoutComponentBase
+
+<nav id="headerWrapper" class="row">
+	<div class="col logoWrapper">
+		<a href="/">
+			<img class="logoImg" src="assets/img/MMH_Logo.jpg" alt="MtnMentalHealth_Logo" />
+		</a>
+	</div>
+	<div id="menuWrapper" class="col">
+		<div id="contactWrapper" class="row">
+			<div class="contactInfo">
+				<img src="assets/icons/phone-solid.svg" alt="phone-icon" class="iconImg" />
+				<a href="tel:385-200-0285" class="contactLinks">(385) 449-9990</a>
+			</div>
+			<div class="contactInfo">
+				<img src="assets/icons/envelope-solid.svg" alt="email-icon" class="iconImg" />
+				<a href="mailto:facts@mtnmentalhealth.com" class="contactLinks">fax@mtnmentalhealth.com</a>
+			</div>
+			<div class="contactInfo">
+				<img src="assets/icons/clock-solid.svg" alt="clock-icon" class="iconImg" />
+				<span>Mon - Fri: 8:00AM - 5:00PM</span>
+			</div>
+		</div>
+		<div id="linkWrapper" class="row @active">
+			<NavLink href="/" Match="NavLinkMatch.All" ActiveClass="activeHeaderLink" class="headerLinks" @onclick="OnHeaderLinkClick">Home</NavLink>
+			<NavLink href="/services" Match="NavLinkMatch.All" ActiveClass="activeHeaderLink"  id="servicesLink" class="headerLinks" @onclick="OnHeaderLinkClick">Services</NavLink>
+			<div id="servicesDropDownWrapper">
+				<a href="/services#medicationManagement">Medication Management</a>
+				<a href="/services#ketamineTherapy">Ketamine Therapy</a>
+				<a href="/services#telehealth">Telehealth</a>
+			</div>
+			<NavLink href="/team"  Match="NavLinkMatch.All" ActiveClass="activeHeaderLink" class="headerLinks" @onclick="OnHeaderLinkClick">Our Team</NavLink>
+			<NavLink href="/contact" Match="NavLinkMatch.All" ActiveClass="activeHeaderLink"  class="headerLinks" @onclick="OnHeaderLinkClick">Contact Us</NavLink>
+		</div>
+	</div>
+	<div id="hamburger" class="@active" @onclick="ToggleActive">
+		<span class="hamburgerBar"></span>
+		<span class="hamburgerBar"></span>
+		<span class="hamburgerBar"></span>
+	</div>
+</nav>
+
+@Body
+
+<div id="footerWrapper" class="row">
+	<div class="logoWrapper col footerContentWrapper">
+		<a href="/">
+			<img id="footerLogo" class="logoImg" src="assets/img/MMH_Logo.jpg" alt="MtnMentalHealth_Logo" />
+		</a>
+	</div>
+
+	<div id="contact" class="col footerContentWrapper">
+		<div class="row footerContent footerContentTitle">
+			CONTACT
+		</div>
+		<div class="row footerContent">
+			(385) 449-9990
+		</div>
+		<div class="row footerContent">
+			HOURS OF OPERATION <br>
+			MON-FRI: 8:00AM - 5:00PM
+		</div>
+	</div>
+
+	<div id="socialMedia" class="col footerContentWrapper">
+		<div class="row footerContent footerContentTitle">
+			FOLLOW US
+		</div>
+		<div class="row footerContent">
+			Instagram<br>
+			Facebook
+		</div>
+	</div>
+</div>
+
+@code
+{
+	// represents the 'active' class dealing with the hamburger menu
+	private string active { get; set; } = string.Empty;
+
+	void ToggleActive()
+	{
+		active = string.IsNullOrEmpty(active) ? "active" : string.Empty;
+	}
+
+	void OnHeaderLinkClick()
+	{
+		if(!string.IsNullOrEmpty(active))
+		{
+			ToggleActive();
+		}
+	}
+}

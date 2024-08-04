@@ -1,0 +1,48 @@
+#titleWrapper {
+	align-items: center;
+	justify-content: center;
+	margin-top: 16px;
+}
+
+.contentWrapper {
+	justify-content: space-evenly;
+	align-items: center;
+}
+.content {
+	width: 30%;
+	min-width: 300px;
+	margin: 16px;
+}
+
+.contentTitle {
+	color: var(--mental-blue);
+}
+
+.contentImage {
+	min-width: 150px;
+	width: 100%;
+	height: auto;
+}
+
+.listItem {
+	margin-bottom: 16px;
+}
+
+#cannabisWrapper {
+	flex-direction: row-reverse;
+}
+
+#spravatoLink {
+	text-decoration: underline;
+	font-size: 18px;
+	color: black;
+	font-weight: bolder;
+	margin: 4px 0px 4px 20%;
+}
+
+#cannabisPricingTitle {
+	margin-bottom: 2px;
+}
+.cannabisText {
+	margin: 0px;
+}

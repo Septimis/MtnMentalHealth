@@ -1,0 +1,81 @@
+.member {
+	flex-wrap: nowrap;
+	text-align: center;
+	margin: 16px;
+	width: 250px;
+	position: relative;
+	top: 0px;
+}
+.memberName {
+	margin: 0px;
+}
+.memberTitle {
+	font-style: italic;
+	font-size: 14px;
+}
+.memberImg {
+	width: 200px;
+	height: 200px;
+	margin: 0px auto;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: top;
+}
+.memberDescription {
+	width: 500px;
+	margin: 16px auto 64px auto;
+}
+.clickBait {
+	border: none;
+	border-radius: 6px;
+	background-color: transparent;
+	margin: 8px auto;
+	width: fit-content;
+	padding: 4px 16px;
+	color: black;
+	transition: background-color 500ms ease-in-out, color 100ms ease-in-out;
+}
+.provider {
+	transition: box-shadow 500ms ease-in-out;
+	cursor: pointer;
+}
+.provider:not(.focused):hover {
+	box-shadow: 6px 8px 12px 1px var(--mental-gray);
+}
+.provider:not(.focused):hover .clickBait {
+	color: var(--mental-off-white);
+	background-color: var(--mental-gray);
+}
+
+.focused {
+	width: 100%;
+	max-width: 100vw;
+	position: fixed;
+	top: 80px;
+	margin: 0px;
+	z-index: 1;
+	height: calc(100vh - 80px);
+	padding: 16px 0px 128px 0px;
+	transition: width 700ms ease-in, top 700ms ease-in;
+	background: linear-gradient(var(--mental-blue) 70%, transparent 100%);
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+@media only screen and (max-width: 900px) {
+	.focused {
+		transition-duration: 400ms;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.memberDescription {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.focused {
+		background-color: var(--mental-blue);
+	}
+}

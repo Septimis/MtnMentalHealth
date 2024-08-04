@@ -1,0 +1,96 @@
+﻿#bannerImg {
+	background-image: url("/assets/img/Home/banner.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 40% 50%;
+	background-size: cover;
+	position: relative;
+	height: 35vh;
+	width: auto;
+	border: 1px solid black;
+	text-align: center;
+}
+#contactHeaderWrapper {
+	margin: 5% 50%;
+	padding: 8px;
+	position: relative;
+	transform: translateX(-50%);
+	border-radius: 8px;
+	background-color: #ffffffaa;
+	width: 45%;
+	overflow: hidden;
+}
+
+#mapWrapper {
+	margin: 64px auto;
+	text-align: center;
+}
+#map {
+	width: 40vw;
+	min-width: 350px;
+	height: 40vw;
+	min-height: 350px;
+	margin: 0px auto;
+}
+
+.gallery {
+	align-items: center;
+	margin: 32px 0px;
+}
+
+	.gallery h2 {
+		text-align: center;
+		margin: 32px 0px 8px 0px;
+	}
+
+.main-image img {
+	width: 600px;
+	height: 600px;
+}
+
+.thumbnails {
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.thumbnail {
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.thumbnail img {
+	width: 150px;
+	height: 150px;
+}
+
+.thumbnail img:hover {
+	opacity: 0.7;
+}
+
+img {
+	object-fit: cover;
+	object-position: center;
+}
+
+#contactInfoWrapper {
+	text-align: center;
+}
+#contactInfoWrapper div {
+	align-content: center;
+	justify-content: center;
+	margin: 8px;
+}
+
+@media only screen and (max-width: 700px) {
+	#bannerImg {
+		height: 30vh;
+	}
+
+	#contactHeaderWrapper {
+		width: 90%;
+		max-height: 20vh;
+	}
+
+	.gallery { display: none;}
+}

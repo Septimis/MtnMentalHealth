@@ -1,0 +1,17 @@
+@page "/article/{articleTitle}"
+
+<h1 id="articleTitle">{articleTitle}</h1>
+
+@foreach(string content in contents)
+{
+	<p class="content">{content}</p>
+}
+
+@code
+{
+	[Parameter]
+	public required string articleTitle { get; set; }
+
+	[Parameter]
+	public required string[] contents { get; set; }
+}
