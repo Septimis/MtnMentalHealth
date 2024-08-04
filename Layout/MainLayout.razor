@@ -22,15 +22,15 @@
 			</div>
 		</div>
 		<div id="linkWrapper" class="row @active">
-			<NavLink href="/" Match="NavLinkMatch.All" ActiveClass="activeHeaderLink" class="headerLinks" @onclick="OnHeaderLinkClick">Home</NavLink>
-			<NavLink href="/services" Match="NavLinkMatch.All" ActiveClass="activeHeaderLink"  id="servicesLink" class="headerLinks" @onclick="OnHeaderLinkClick">Services</NavLink>
+			<a href="/" class="headerLinks" @onclick="OnHeaderLinkClick">Home</a>
+			<a href="/services" class="headerLinks" id="servicesLink" @onclick="OnHeaderLinkClick">Services</a>
 			<div id="servicesDropDownWrapper">
 				<a href="/services#medicationManagement">Medication Management</a>
 				<a href="/services#ketamineTherapy">Ketamine Therapy</a>
 				<a href="/services#telehealth">Telehealth</a>
 			</div>
-			<NavLink href="/team"  Match="NavLinkMatch.All" ActiveClass="activeHeaderLink" class="headerLinks" @onclick="OnHeaderLinkClick">Our Team</NavLink>
-			<NavLink href="/contact" Match="NavLinkMatch.All" ActiveClass="activeHeaderLink"  class="headerLinks" @onclick="OnHeaderLinkClick">Contact Us</NavLink>
+			<a href="/team" class="headerLinks" @onclick="OnHeaderLinkClick">Our Team</a>
+			<a href="/contact" class="headerLinks" @onclick="OnHeaderLinkClick">Contact Us</a>
 		</div>
 	</div>
 	<div id="hamburger" class="@active" @onclick="ToggleActive">
