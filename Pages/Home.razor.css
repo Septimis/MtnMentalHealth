@@ -72,6 +72,57 @@
 	color: blue;
 }
 
+.cardPopUp {
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 80px;
+	transform: translate(-50%);
+
+	width: 80%;
+	height: auto;
+	overflow-y: auto;
+	max-height: 80%;
+	background-color: var(--mental-off-white);
+
+	border: none;
+	border-radius: 10px;
+	box-shadow: 6px 6px 10px 2px var(--mental-gray);
+
+	margin-top: 36px;
+	text-align: center;
+}
+.cardPopUp h1 {
+	margin: 5% 20%;
+}
+.cardPopUp p {
+	margin: 16px 20%;
+	font-size: 18px;
+	line-height: 25px;
+
+}
+.cardPopUp button {
+	margin: 16px 20% 32px 20%;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	background-color: var(--mental-blue);
+	color: white;
+	padding: 12px 24px;
+	cursor: pointer;
+	font-size: large;
+}
+.showCard {
+	display: block;
+}
+
+#conditionList {
+	list-style-type: none;
+}
+.conditionItem {
+	margin: 6px;
+}
+
 @keyframes fade-in-bottom {
 	0% {
 		opacity: 0;
@@ -94,6 +145,12 @@
 	#headerMissionStatement {
 		font-size: 16px;
 		margin: 0px;
+	}
+
+	.cardPopUp {
+		width: 95%;
+		height: 80%;
+		margin-top: 12px;
 	}
 }
 

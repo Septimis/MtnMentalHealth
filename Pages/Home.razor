@@ -11,17 +11,17 @@
 </div>
 
 <div id="infoCardWrapper" class="row">
-	<div class="infoCard col">
+	<div class="infoCard col" @onclick=SetCareOnYourTermsActive>
 		<h3>CARE ON YOUR TERMS</h3>
 		<p>LEARN MORE</p>
 	</div>
 
-	<div class="infoCard col">
+	<div class="infoCard col" @onclick=SetAboutUsActive>
 		<h3>ABOUT US</h3>
 		<p>LEARN MORE</p>
 	</div>
 
-	<div class="infoCard col">
+	<div class="infoCard col" @onclick=SetInclusiveEnvironmentActive>
 		<h3>INCLUSIVE ENVIRONMENT</h3>
 		<p>LEARN MORE</p>
 	</div>
@@ -30,3 +30,123 @@
 <div id="acceptingPtWrapper">
 	Now accepting new patients, please call to set up an appointment
 </div>
+
+<div class="cardPopUp @careOnYourTermsCard">
+	<h1>Care On Your Terms</h1>
+	<p>At Mountain Mental Health we prioritize &quot;<i>Care on Your Terms</i>&quot;, offering flexible and convenient solutions to meet your mental health needs. Our services include virtual visits, allowing you to receive professional care from the comfort of your home. Our commitment is to make mental health care accessible, personalized, and adaptable to your unique circumstances. Contact us today to schedule an appointment in person or virtually. <a href="tel:3854499990">385-449-9990</a> or email us at <a href="mailto:fax@mtnmentalhealth.com">fax@mtnmentalhealth.com</a></p>
+	<button @onclick="SetCareOnYourTermsInactive">Close</button>
+</div>
+
+<div class="cardPopUp @aboutUsCard">
+	<h1>About Us</h1>
+	<p>At Mountain Mental Health, we understand the extraordinary stress that can accompany mental health conditions and the critical need for prompt connection to knowledgeable and trusted providers. Our compassionate care focuses on mental wellness, offering quick access to our expert teams, pioneering treatments, and comprehensive medication management. At Mountain Mental Health, you will find experienced clinicians and immediate appointments to support your journey towards better mental health.</p>
+	<button @onclick="SetAboutUsInactive">Close</button>
+</div>
+
+<div class="cardPopUp @inclusiveEnvironmentCard">
+	<h1>Inclusive Environment</h1>
+	<h2>Treatment for All</h2>
+	<p>Our providers at Mountain Mental Health are dedicated to creating a safe and comfortable space for children, adolescents, and adults, including members of the LGBTQI+ community, who are navigating various mental health challenges.</p>
+	<h2>Conditions we Treat</h2>
+	<p>Mountain Mental Health is a comprehensive mental health provider. Our trained and licensed team is equipped to treat a wide range of mental health conditions in an outpatient setting.</p>
+	<input @oninput="OnConditionSearchTyped" placeholder="Search..." />
+	<ul id="conditionList">
+		@foreach(string condition in filteredConditions)
+		{
+			<li class="conditionItem">@condition</li>
+		}
+	</ul>
+	<button @onclick=SetInclusiveEnvironmentInactive>Close</button>
+</div>
+
+@code
+{
+	private string searchTerm { get; set; } = string.Empty;
+	private List<string> conditions = new List<string>
+	{
+		"Addiction",
+		"Adjustment disorders",
+		"Agoraphobia",
+		"Anorexia and other eating disorders",
+		"Anxiety",
+		"Attention deficit disorder (ADD)",
+		"Attention deficit hyperactivity disorder (ADHD)",
+		"Autism spectrum disorder",
+		"Bipolar disorder",
+		"Bipolar II disorder",
+		"Bulimia and other eating disorders",
+		"Cognitive disorders",
+		"Conduct disorder (pediatrics)",
+		"Dementia",
+		"Depression",
+		"Developmental disorders (pediatrics)",
+		"Disruptive mood dysregulation disorder (pediatrics)",
+		"Gender dysphoria",
+		"Gender identity concerns",
+		"Generalized anxiety disorder",
+		"Insomnia and other sleep disorders",
+		"Major depressive disorder",
+		"Mood disorders and thought disorders",
+		"Obsessive-compulsive disorder (OCD)",
+		"Oppositional defiant disorder (pediatrics)",
+		"Panic attacks",
+		"Post-partum depression",
+		"Post-traumatic stress disorder (PTSD)",
+		"Psychosis",
+		"Schizoaffective disorders",
+		"Schizophrenia",
+		"Sexual identity concerns",
+		"Substance use disorders",
+		"Tic disorders",
+		"Trauma"
+	};
+	private IEnumerable<string> filteredConditions =>
+		conditions.Where(t => t.Contains(searchTerm, StringComparison.OrdinalIgnoreCase));
+	private void OnConditionSearchTyped(ChangeEventArgs e)
+	{
+		searchTerm = e.Value?.ToString() ?? string.Empty;
+		// Trigger a re-render
+		StateHasChanged();
+	}
+	private string careOnYourTermsCard { get; set; } = string.Empty;
+	private string aboutUsCard { get; set; } = string.Empty;
+	private string inclusiveEnvironmentCard { get; set; } = string.Empty;
+
+	private void SetCareOnYourTermsActive()
+	{
+		if(string.IsNullOrEmpty(aboutUsCard) && string.IsNullOrEmpty(inclusiveEnvironmentCard))
+		{
+			careOnYourTermsCard = "showCard";
+		}
+	}
+	private void SetCareOnYourTermsInactive()
+	{
+		careOnYourTermsCard = string.Empty;
+	}
+
+	private void SetAboutUsActive()
+	{
+		if(string.IsNullOrEmpty(careOnYourTermsCard) && string.IsNullOrEmpty(inclusiveEnvironmentCard))
+		{
+			aboutUsCard = "showCard";
+		}
+	}
+	private void SetAboutUsInactive()
+	{
+		aboutUsCard = string.Empty;
+	}
+
+	private void SetInclusiveEnvironmentActive()
+	{
+		if(string.IsNullOrEmpty(careOnYourTermsCard) && string.IsNullOrEmpty(aboutUsCard))
+		{
+			inclusiveEnvironmentCard = "showCard";
+		}
+	}
+	private void SetInclusiveEnvironmentInactive()
+	{
+		inclusiveEnvironmentCard = string.Empty;
+	}
+
+	
+}
