@@ -25,12 +25,19 @@
 		<h3>INCLUSIVE ENVIRONMENT</h3>
 		<p>LEARN MORE</p>
 	</div>
+
+	<div class="infoCard col" @onclick=SetAcceptedInsuranceActive>
+		<h3>ACCEPTED INSURANCE</h3>
+		<p>LEARN MORE</p>
+	</div>
 </div>
 
 <div id="acceptingPtWrapper">
 	Now accepting new patients, please call to set up an appointment
 </div>
 
+
+<!-- Pop up Cards -->
 <div class="cardPopUp @careOnYourTermsCard">
 	<h1>Care On Your Terms</h1>
 	<p>At Mountain Mental Health we prioritize &quot;<i>Care on Your Terms</i>&quot;, offering flexible and convenient solutions to meet your mental health needs. Our services include virtual visits, allowing you to receive professional care from the comfort of your home. Our commitment is to make mental health care accessible, personalized, and adaptable to your unique circumstances. Contact us today to schedule an appointment in person or virtually. <a href="tel:3854499990">385-449-9990</a> or email us at <a href="mailto:fax@mtnmentalhealth.com">fax@mtnmentalhealth.com</a></p>
@@ -50,7 +57,7 @@
 	<h2>Conditions we Treat</h2>
 	<p>Mountain Mental Health is a comprehensive mental health provider. Our trained and licensed team is equipped to treat a wide range of mental health conditions in an outpatient setting.</p>
 	<input @oninput="OnConditionSearchTyped" placeholder="Search..." />
-	<ul id="conditionList">
+	<ul id="conditionList" style="padding: 0px;">
 		@foreach(string condition in filteredConditions)
 		{
 			<li class="conditionItem">@condition</li>
@@ -59,8 +66,33 @@
 	<button @onclick=SetInclusiveEnvironmentInactive>Close</button>
 </div>
 
+<div class="cardPopUp @acceptedInsuranceCard">
+	<h1>Accepted Insurance</h1>
+	<div id="healthInsuranceWrapper" class="row">
+		@foreach(string imgSrc in insuranceLogoPaths)
+		{
+			<img src="@imgSrc" alt="healthInsurance" class="healthInsuranceImg"/>
+		}
+	</div>
+	<button @onclick="SetAcceptedInsuranceInactive">Close</button>
+</div>
+
 @code
 {
+	private List<string> insuranceLogoPaths = new List<string>
+	{
+		"/assets/img/Home/InsuranceCard/aetna.png",
+		"/assets/img/Home/InsuranceCard/DMBA.png",
+		"/assets/img/Home/InsuranceCard/EMI_Health.png",
+		"/assets/img/Home/InsuranceCard/Humana.png",
+		"/assets/img/Home/InsuranceCard/Medicaid.jpg",
+		"/assets/img/Home/InsuranceCard/Medicare.png",
+		"/assets/img/Home/InsuranceCard/SelectHealth.png",
+		"/assets/img/Home/InsuranceCard/Tricare.png",
+		"/assets/img/Home/InsuranceCard/TriWest.png",
+		"/assets/img/Home/InsuranceCard/UnitedHealthcare.png",
+		"/assets/img/Home/InsuranceCard/UofUHealthPlans.png"
+	};
 	private string searchTerm { get; set; } = string.Empty;
 	private List<string> conditions = new List<string>
 	{
@@ -111,10 +143,20 @@
 	private string careOnYourTermsCard { get; set; } = string.Empty;
 	private string aboutUsCard { get; set; } = string.Empty;
 	private string inclusiveEnvironmentCard { get; set; } = string.Empty;
+	private string acceptedInsuranceCard { get; set; } = string.Empty;
+
+	private bool AreAllCardsInactive()
+	{
+		return
+			string.IsNullOrEmpty(careOnYourTermsCard) &&
+			string.IsNullOrEmpty(aboutUsCard) &&
+			string.IsNullOrEmpty(inclusiveEnvironmentCard) &&
+			string.IsNullOrEmpty(acceptedInsuranceCard);
+	}
 
 	private void SetCareOnYourTermsActive()
 	{
-		if(string.IsNullOrEmpty(aboutUsCard) && string.IsNullOrEmpty(inclusiveEnvironmentCard))
+		if(AreAllCardsInactive())
 		{
 			careOnYourTermsCard = "showCard";
 		}
@@ -126,7 +168,7 @@
 
 	private void SetAboutUsActive()
 	{
-		if(string.IsNullOrEmpty(careOnYourTermsCard) && string.IsNullOrEmpty(inclusiveEnvironmentCard))
+		if(AreAllCardsInactive())
 		{
 			aboutUsCard = "showCard";
 		}
@@ -138,7 +180,7 @@
 
 	private void SetInclusiveEnvironmentActive()
 	{
-		if(string.IsNullOrEmpty(careOnYourTermsCard) && string.IsNullOrEmpty(aboutUsCard))
+		if(AreAllCardsInactive())
 		{
 			inclusiveEnvironmentCard = "showCard";
 		}
@@ -148,5 +190,15 @@
 		inclusiveEnvironmentCard = string.Empty;
 	}
 
-	
+	private void SetAcceptedInsuranceActive()
+	{
+		if(AreAllCardsInactive())
+		{
+			acceptedInsuranceCard = "showCard";
+		}
+	}
+	private void SetAcceptedInsuranceInactive()
+	{
+		acceptedInsuranceCard = string.Empty;
+	}
 }

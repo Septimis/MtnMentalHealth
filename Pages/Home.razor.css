@@ -123,6 +123,16 @@
 	margin: 6px;
 }
 
+#healthInsuranceWrapper {
+	margin: 12px 10%;
+	justify-content: space-evenly;
+}
+.healthInsuranceImg {
+	width: 400px;
+	height: auto;
+	margin: 12px;
+}
+
 @keyframes fade-in-bottom {
 	0% {
 		opacity: 0;
