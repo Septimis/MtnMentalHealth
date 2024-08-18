@@ -29,7 +29,11 @@
 	margin-bottom: 16px;
 }
 
-#cannabisWrapper {
+#ketamineTherapy {
+	flex-direction: row-reverse; 
+}
+
+#semaglutideTherapy {
 	flex-direction: row-reverse;
 }
 
