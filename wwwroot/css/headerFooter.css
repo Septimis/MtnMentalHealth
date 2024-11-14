@@ -149,6 +149,8 @@
 	padding: 12px 0px;
 
 	margin-top: auto;
+	max-height: fit-content;
+	border-bottom: 2px solid black;
 }
 .footerContentWrapper {
 	margin: 0px 16px;

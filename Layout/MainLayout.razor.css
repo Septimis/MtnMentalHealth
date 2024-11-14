@@ -154,7 +154,7 @@
 	justify-content: space-between;
 	border-top: 2px solid black;
 	padding: 12px 0px;
-
+	max-height: fit-content;
 	margin-top: auto;
 }
 .footerContentWrapper {
