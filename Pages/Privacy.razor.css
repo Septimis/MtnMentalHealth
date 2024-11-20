@@ -1,11 +1,24 @@
 #privacyTitle {
 	margin-top: 90px;
+	margin-bottom: 6px;
 	text-align: center;
+}
+
+#effective-date {
+	text-align: center;
+	color: var(--mental-gray);
 }
 
 div {
 	text-align: left;
 	margin: 0px 20vw;
+}
+
+h2 {
+	margin-bottom: 0px;
+}
+.section-description {
+	margin-top: 6px;
 }
 
 @media screen and (max-width: 500px)
